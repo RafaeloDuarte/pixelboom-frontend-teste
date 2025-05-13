@@ -1,4 +1,3 @@
-// src/features/users/components/__tests__/AddUserDialog.test.tsx
 import { AddUserDialog } from "@/features/users/components/AddUserDialog";
 import { render } from "@testing-library/react"
 import { screen, fireEvent } from "@testing-library/dom"
