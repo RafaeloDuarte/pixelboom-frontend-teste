@@ -1,9 +1,9 @@
 import { render, screen } from "@testing-library/react";
-import App from "../App";
+import App from "../../App";
 import { describe, it, expect } from "vitest";
 
 describe("App Component", () => {
-  it("should render the app title in h1", () => {
+  it("should render the app button", () => {
     render(<App />);
     const button = screen.getByRole("button", {
       name: /Click me$/i,
