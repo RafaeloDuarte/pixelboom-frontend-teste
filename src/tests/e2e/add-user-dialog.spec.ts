@@ -1,4 +1,3 @@
-// tests/e2e/add-user-dialog.spec.ts
 import { test, expect } from "@playwright/test"
 
 test("add user dialog opens and shows fields", async ({ page }) => {
