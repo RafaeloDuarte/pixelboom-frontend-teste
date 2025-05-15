@@ -48,10 +48,7 @@ A aplicação estará disponível em:
 
 ## 🚀 Deploy
 
-Este projeto pode ser facilmente publicado na [Netlify](https://netlify.com), utilizando as configurações:
-
-* **Build Command:** `npm run build`
-* **Publish Directory:** `dist`
+Este projeto foi publicado na [Netlify](https://dreamy-muffin-4fb6cf.netlify.app/)
 
 ---
 
