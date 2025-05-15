@@ -1,13 +1,16 @@
-import { CircleHelp, Bell } from "lucide-react"
+import { CircleHelp, Bell, PanelLeftClose } from "lucide-react"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 export function Header() {
   return (
-    <header className="w-full h-16 border-b flex items-center justify-end px-6 bg-white">
-      <div className="flex items-center gap-6">
-        <CircleHelp className="w-5 h-5 text-muted-foreground cursor-pointer" />
-        <Bell className="w-5 h-5 text-muted-foreground cursor-pointer" />
-        <Avatar className="w-8 h-8">
+    <header className="w-full h-[72px] border-b flex items-center justify-between px-6 bg-white">
+      <div className="w-10 h-10 flex items-center justify-center gap-3">
+        <PanelLeftClose className="w-10 h-10 flex items-center justify-center gap-2 rounded-full p-3 opacity-75" />
+      </div>
+      <div className="w-[144px] flex items-center gap-3">
+        <CircleHelp className="w-10 h-10 flex items-center justify-center gap-2 rounded-full p-3 border" />
+        <Bell className="w-10 h-10 flex items-center justify-center gap-2 rounded-full p-3 border" />
+        <Avatar className="w-10 h-10 rounded-full">
           <AvatarImage src="" alt="User" />
           <AvatarFallback>JP</AvatarFallback>
         </Avatar>
